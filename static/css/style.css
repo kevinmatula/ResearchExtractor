@@ -1,0 +1,26 @@
+#titleText
+{
+    color: rgb(207, 86, 86);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.genericText
+{
+    color:aliceblue;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body
+{
+    overflow-x: hidden;
+}
+
+.animation-typewriter
+{
+    animation: typewriter 1s steps(44) 0s 1 normal both;
+}
+@keyframes typewriter
+{
+    from{width: 0;}
+    to{width: 50em;}
+}
